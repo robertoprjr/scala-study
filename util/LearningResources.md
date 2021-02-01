@@ -25,3 +25,34 @@ From [Coursera course](https://www.coursera.org/specializations/scala)
 ### Week 2
 
 - [Glossary of Scala and FP terms](http://docs.scala-lang.org/glossary/), for any issues with terminology.
+
+### Extra Links
+
+https://www.scala-lang.org/api/current/
+
+http://twitter.github.io/scala_school/
+
+https://docs.scala-lang.org/tour/tour-of-scala.html
+
+https://stackoverflow.com/tags/scala/info
+
+https://www.artima.com/shop/programming_in_scala_3ed
+
+https://www.artima.com/pins1ed/
+
+https://docs.scala-lang.org/glossary/
+
+https://docs.scala-lang.org/cheatsheets/
+
+https://github.com/lampepfl/progfun-wiki/blob/gh-pages/CheatSheet.md
+
+https://www.scala-sbt.org/index.html
+
+https://www.coursera.org/learn/progfun1/supplement/uV974/sbt-tutorial-and-submission-of-assignments-please-read
+
+https://www.coursera.org/learn/progfun1/supplement/Sauv3/cheat-sheet
+
+https://www.scala-sbt.org/0.13/docs/Organizing-Build.html
+
+https://www.scala-exercises.org/
+** sbt "submit e-mail@university.org suBmISsioNPasSwoRd" **

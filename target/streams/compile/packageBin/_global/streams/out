@@ -1,1 +1,27 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: D:\dev\scala-study\target\scala-2.13\scala-study_2.13-0.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging D:\dev\scala-study\target\scala-2.13\scala-study_2.13-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	generalFunctions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\dev\scala-study\target\scala-2.13\classes\generalFunctions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	generalFunctions\InitialLists$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\dev\scala-study\target\scala-2.13\classes\generalFunctions\InitialLists$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	generalFunctions\InitialLists.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\dev\scala-study\target\scala-2.13\classes\generalFunctions\InitialLists.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	generalFunctions\InitialLists.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\dev\scala-study\target\scala-2.13\classes\generalFunctions\InitialLists.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	generalFunctions\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\dev\scala-study\target\scala-2.13\classes\generalFunctions\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	generalFunctions\Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\dev\scala-study\target\scala-2.13\classes\generalFunctions\Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	generalFunctions\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\dev\scala-study\target\scala-2.13\classes\generalFunctions\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recfun[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\dev\scala-study\target\scala-2.13\classes\recfun[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recfun\RecFun$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\dev\scala-study\target\scala-2.13\classes\recfun\RecFun$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recfun\RecFun.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\dev\scala-study\target\scala-2.13\classes\recfun\RecFun.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recfun\RecFunInterface.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\dev\scala-study\target\scala-2.13\classes\recfun\RecFunInterface.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScratchZero.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\dev\scala-study\target\scala-2.13\classes\ScratchZero.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
