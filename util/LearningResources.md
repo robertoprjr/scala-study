@@ -1,7 +1,6 @@
----
-layout: page
-title: Learning Resources
----
+# Learning Resources
+
+From [Coursera course](https://www.coursera.org/specializations/scala)
 
 ### Quick References
 
@@ -26,4 +25,3 @@ title: Learning Resources
 ### Week 2
 
 - [Glossary of Scala and FP terms](http://docs.scala-lang.org/glossary/), for any issues with terminology.
-

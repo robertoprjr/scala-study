@@ -1,7 +1,6 @@
----
-layout: page
-title: Scala Style Guide
----
+# Scala Style Guide
+
+From [Coursera course](https://www.coursera.org/specializations/scala)
 
 On this page you can find a list of common issues that we detected while looking at some submissions.
 

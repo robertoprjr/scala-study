@@ -1,9 +1,8 @@
----
-layout: page
-title: Sbt Tutorial
----
+# Sbt Tutorial
 
-We use sbt for building, testing, running and submitting assignments. This tutorial explains all sbt commands that you will use during our class. The [Tools Setup](view?page=ToolsSetup) page explains how to install sbt.
+From [Coursera course](https://www.coursera.org/specializations/scala)
+
+We use sbt for building, testing, running and submitting assignments. This tutorial explains all sbt commands that you will use during our class.
 
 ## Starting up sbt
 

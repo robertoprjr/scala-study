@@ -1,17 +1,11 @@
----
-layout: page
-title: Cheat Sheet
----
+# Cheat Sheet
 
 This cheat sheet originated from the forum, credits to Laurent Poulain.
-We copied it and changed or added a few things.
-There are certainly a lot of things that can be improved! If you would like to contribute, you have two options:
+After that, I've copied it from the Coursera course to save it in my project.
 
-- Click the "Edit" button on this file on GitHub:  
-  [https://github.com/lampepfl/progfun-wiki/blob/gh-pages/CheatSheet.md](https://github.com/lampepfl/progfun-wiki/blob/gh-pages/CheatSheet.md)  
-  You can submit a pull request directly from there without checking out the git repository to your local machine.
+Future, I'll change it with my studies...
 
-- Fork the repository [https://github.com/lampepfl/progfun-wiki](https://github.com/lampepfl/progfun-wiki) and check it out locally. To preview your changes, you need [jekyll](http://jekyllrb.com/). Navigate to your checkout and invoke `jekyll serve`, then open the page [http://localhost:4000/CheatSheet.html](http://localhost:4000/CheatSheet.html).
+[Coursera course](https://www.coursera.org/specializations/scala)
 
 ## Evaluation Rules
 

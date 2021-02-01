@@ -1,7 +1,6 @@
----
-layout: page
-title: Scala Tutorial
----
+# Scala Tutorial
+
+From [Coursera course](https://www.coursera.org/specializations/scala)
 
 This page gives a very brief tutorial on the Scala programming language.
 
