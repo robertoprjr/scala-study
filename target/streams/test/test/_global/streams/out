@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(generalFunctions.InitialListsSuite, com.novocode.junit.JUnitFingerprint@716ce09a, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run started[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mTest generalFunctions.[33mInitialListsSuite[0m.[36mone plus two is three (0pts)?[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest generalFunctions.[33mInitialListsSuite[0m.[36mmax of a few numbers (10pts)[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest generalFunctions.[33mInitialListsSuite[0m.[36mintNotZero throws an exception if its argument is 0[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest generalFunctions.[33mInitialListsSuite[0m.[36mdetails why one plus one is not three (0pts)[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest generalFunctions.[33mInitialListsSuite[0m.[36msum of a few numbers (10pts)[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest generalFunctions.[33mInitialListsSuite[0m.[36mone plus one is two (0pts)[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 6 total, 0.203s[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for JUnit not available.[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 6, Failed 0, Errors 0, Passed 6[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	generalFunctions.InitialListsSuite[0m
