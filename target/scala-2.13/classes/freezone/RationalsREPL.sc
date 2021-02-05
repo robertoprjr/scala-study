@@ -1,7 +1,11 @@
 import scala.annotation.tailrec
 
 class Rational(x: Int, y: Int){
+  //Validation
   require(y != 0, "denominator must be nonzero")
+
+  //Secondary constructor
+  def this(x: Int) = this(x, 1)
 
   @tailrec
   private def gcd(a: Int, b: Int): Int = {
@@ -26,6 +30,15 @@ class Rational(x: Int, y: Int){
 
   def sub(that: Rational) : Rational = add(that.neg)
 
+  def < (that: Rational) = less(that)
+
+  def + (that: Rational) = add(that)
+
+  def unary_- : Rational = new Rational(-numer, denom)
+
+  def - (that: Rational) = this + -that
+
+
   override def toString: String = numer + "/" + denom
 }
 
@@ -38,4 +51,10 @@ y.sub(x)
 y.less(x)
 x.max(y)
 
-var z = new Rational(1, 0)
+y add x
+y < x
+y - x
+y + x
+
+val z = new Rational(1, 0)
+val w = new Rational(2)
