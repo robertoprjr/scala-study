@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1202f796-3b53-4f1a-aa33-340c9963158c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/freezone/AltSetREPL.sc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/freezone/FunSetsREPL.sc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/funsets/FunSets.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/funsets/FunSetsInterface.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/funsets/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/funsets/FunSetSuite.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a77dbbbcdcb6ecb88494.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
