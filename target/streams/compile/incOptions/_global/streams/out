@@ -1,2 +1,35 @@
-[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = D:\dev\scala-study\target\scala-2.13\classes.bak[0m
-[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: D:\dev\scala-study\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/roberto/dev/scala-study/target/scala-2.13/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	InitialLists$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	InitialLists.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RecFunInterface.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RecFun.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RecFun$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	InitialLists$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	InitialLists.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RecFunInterface.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RecFun.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RecFun$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FunSetsInterface.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	InitialLists$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FunSets.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	InitialLists.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RecFunInterface.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RecFun.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RecFun$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FunSets$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/roberto/dev/scala-study/target/scala-2.13/classes.bak[0m
