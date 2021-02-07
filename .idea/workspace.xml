@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1202f796-3b53-4f1a-aa33-340c9963158c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/natnumber/Nat.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/natnumber/NatSucc.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/natnumber/NatZero.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
