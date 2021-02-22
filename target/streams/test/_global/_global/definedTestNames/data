@@ -1,1 +1,1 @@
-["generalFunctions.InitialListsSuite"]
+["objsets.TweetSetSuite","funsets.FunSetSuite","generalFunctions.InitialListsSuite","recfun.RecFunSuite"]
