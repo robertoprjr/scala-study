@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97492df7-cc46-4ca8-9ab5-bf7ab7738804" name="Default Changelist" comment="" />
+    <list default="true" id="97492df7-cc46-4ca8-9ab5-bf7ab7738804" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/observerbank/Account.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/observerbank/BankAccount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/observerbank/Consolidator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/observerbank/Main.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/observerbank/Publisher.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/observerbank/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/observerbank/Subscriber.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/signalbank/Account.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/signalbank/BankAccount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/signalbank/Main.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/signalbank/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/signalbank/Signal.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/signalbank/StackableVariable.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/signalbank/Var.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/active.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history3" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +41,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Scala Worksheet" />
+        <option value="Scala Object" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -48,7 +69,46 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="signalbank.Main" />
+      <module name="scala-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="signalbank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="observerbank.Main" />
+      <module name="scala-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="observerbank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="x" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="freezone.x" />
+      <module name="scala-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="freezone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in scala-study" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="scala-study" />
       <option name="PACKAGE_NAME" value="" />
@@ -59,6 +119,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.x" />
         <item itemvalue="JUnit.All in scala-study" />
       </list>
     </recent_temporary>
