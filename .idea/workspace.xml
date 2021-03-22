@@ -5,24 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97492df7-cc46-4ca8-9ab5-bf7ab7738804" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/observerbank/Account.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/observerbank/BankAccount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/observerbank/Consolidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/observerbank/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/observerbank/Publisher.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/observerbank/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/observerbank/Subscriber.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/signalbank/Account.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/signalbank/BankAccount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/signalbank/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/signalbank/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/signalbank/Signal.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/signalbank/StackableVariable.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/signalbank/Var.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/freezone/ThreadTestREPL.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/active.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/.history3" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/zinc/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/zinc/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/discoveredMainClasses/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/discoveredMainClasses/data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/incOptions/_global/streams/out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Scala Worksheet" />
         <option value="Scala Object" />
         <option value="Package Object" />
+        <option value="Scala Worksheet" />
       </list>
     </option>
   </component>
