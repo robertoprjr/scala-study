@@ -30,9 +30,11 @@ val a2 = new Account(700000)
 
 val t = startThread(a1, a2, 15000)
 val s = startThread(a2, a1, 25000)
+val k = startThread(a1, a2, 71000)
 
 t.join()
 s.join()
+k.join()
 
 println(a1.showAmount)
 println(a2.showAmount)
