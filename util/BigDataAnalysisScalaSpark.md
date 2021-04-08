@@ -258,3 +258,101 @@ val avgBudgets = reduceInter.mapValues { case(v1, v2) => v1 / v2 }
 ## Joins
 - Inner Joins (join)
 - Outer Joins (leftOuterJoin, rightOuterJoin)
+
+# Shuffling
+
+> A shuffle occurs when data is rearranged between partitions. This is required when a transformation requires information from other partitions, such as summing all the values in a column. Spark will gather the required data from each partition and combine it into a new partition, likely on a different executor
+
+Take care always how the commands in Spark are executed
+
+Shuffles happens all the time
+
+It's import to understand how GroupByKey and ReduceByKey works...
+
+ReduceByKey is make a reducing before make the shuffle, so it can get better performance than GropyByKey. So, everytime GroupByKey could be substitute by ReduceByKey, it will be better
+
+## Optimization of Shuffling
+
+One way to make a optimization of the shuffling is do a RangePartitioner based in your hardware struture
+
+But, when we do this kind of thing, you can't forget to ``persist()`` the RDD partitioned because, if we don't do it, in all the execution, the RDD will be partitioned again and again and don't make sense for our optimization
+
+e.g.
+```scala
+val userData = sc.sequenceFile[UserID, UserData]("hdfs://")
+.partitionBy(new HashPartitioner(100))
+.persist()
+```
+
+## How do I know a shuffle will occur?
+
+A shuffle can occur when the resulting RDD depends on other elements from the same RDD or from another RDD
+
+Tricks to see it:
+1. The return type of certain transformations
+```scala
+org.apache.spark.rdd.RDD[(String, Int)] = ShuffledRDD[366]
+``` 
+2. Using function ``toDebugString`` to see its execution plan (it shows the stages): 
+
+```scala
+intermediate.reduceByKey((v1, v2) => (v1._1 + v2_.1, v2._1, v2._2)).toDebugString
+
+//result
+res11: String = ... SuffledRDD[917] at partitionBy at ... 
+
+```   
+## Narrow x Wide Dependencies
+
+Narrow: Each partition of the parent RDD is used by **at most** one partition of the child RDD
+- It's fast because no shuffle is necessary. 
+
+Wide: Each partition of the parent RDD may be depended on by **multiple** shild partitions
+- It's slow because needs all or part of the data be shuffle over the network
+
+**Narrow Dependency:**
+- map
+- mapValues
+- flatMap
+- filter
+- mapPartitions
+- mapPartitionsWithIndex
+
+**Wide Dependency: operations that might cause a shuffle:**
+- cogroup
+- groupWith
+- join
+- leftOuterJoin
+- rightOuterJoin
+- groupByKey
+- reduceByKey
+- combineByKey
+- distinct
+- intersection
+- repartition
+- coalesce
+
+In other hand, can be used the ``dependencies`` method to show: If it show ``ShuffleDependency`` is it wide, any other like ``OneToOneDependency``, ``PruneDependency`` or ``RangeDependency``, it's narrow.
+
+e.g.
+```scala
+val wordsRdd = sc.parallelize(largeList)
+val pairs = wordsRdd.map(c => (c, 1)).groupByKey().dependencies
+
+//pairs: Seq[org.apache.spark.Dependency[_]] = List(org.apache.spark.ShuffleDependency@178979)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
