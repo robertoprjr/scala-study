@@ -1,16 +1,16 @@
-[0m[[0m[33mwarn[0m] [0m[0mD:\dev\scala-study\src\main\scala\observerbank\Account.scala:5:27: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `deposit`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Main\dev\scala-study\src\main\scala\observerbank\Account.scala:5:27: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `deposit`'s return type[0m
 [0m[[0m[33mwarn[0m] [0m[0m  def deposit(amount: Int)[0m
 [0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mD:\dev\scala-study\src\main\scala\observerbank\Account.scala:6:30: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `withdrawal`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Main\dev\scala-study\src\main\scala\observerbank\Account.scala:6:30: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `withdrawal`'s return type[0m
 [0m[[0m[33mwarn[0m] [0m[0m  def withdrawal(amount: Int)[0m
 [0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mD:\dev\scala-study\src\main\scala\observerbank\Subscriber.scala:4:36: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `handler`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Main\dev\scala-study\src\main\scala\observerbank\Subscriber.scala:4:36: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `handler`'s return type[0m
 [0m[[0m[33mwarn[0m] [0m[0m  def handler(publisher: Publisher)[0m
 [0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mD:\dev\scala-study\src\main\scala\signalbank\Account.scala:4:27: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `deposit`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Main\dev\scala-study\src\main\scala\signalbank\Account.scala:4:27: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `deposit`'s return type[0m
 [0m[[0m[33mwarn[0m] [0m[0m  def deposit(amount: Int)[0m
 [0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mD:\dev\scala-study\src\main\scala\signalbank\Account.scala:5:30: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `withdrawal`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Main\dev\scala-study\src\main\scala\signalbank\Account.scala:5:30: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `withdrawal`'s return type[0m
 [0m[[0m[33mwarn[0m] [0m[0m  def withdrawal(amount: Int)[0m
 [0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
 [0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m
