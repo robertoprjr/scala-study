@@ -1,4 +1,3 @@
-[0m[[0m[33mwarn[0m] [0m[0mscala-library-2.13.4.jar no longer exists at C:\Users\rober\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.4\scala-library-2.13.4.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = false, force = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = true, force = true[0m
 [0m[[0m[0mdebug[0m] [0m[0mUpdating ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone updating [0m
